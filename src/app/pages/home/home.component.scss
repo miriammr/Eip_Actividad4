@@ -1,0 +1,25 @@
+div{
+  text-align: center;
+  padding: 10px;
+}
+h1{
+  font-size: 24px;
+  color: #42c7e2;
+}
+p{
+  color: #8bc746;
+}
+.section{
+  max-width: 980px;
+  margin: auto;
+}
+img{
+  max-width: 250px;
+  padding: 10px;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+figure{
+  text-align: center;
+}
