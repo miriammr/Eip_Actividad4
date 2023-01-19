@@ -1,0 +1,11 @@
+<div class="box" (click)="selectPerson(person)">
+  <h3>{{person.name}}</h3>
+  <div class="description" >
+    <p><span>{{'Height:'| uppercase}}</span> {{person.height}}</p>
+    <p><span>{{'Hair Color:'| uppercase}}</span> {{person.hair_color}}</p>
+    <p><span>{{'Skin Color:'| uppercase}}</span> {{person.skin_color}}</p>
+    <p><span>{{'Eye Color:'| uppercase}}</span> {{person.eye_color}}</p>
+    <p><span>{{'Gender:'| uppercase}}</span> {{person.gender}}</p>
+    <p><span>{{'Birth Year:'| uppercase}}</span> {{person.birth_year |lowercase}}</p>
+  </div>
+</div>

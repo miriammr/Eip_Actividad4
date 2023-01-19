@@ -1,0 +1,29 @@
+.box{
+  width: 300px;
+  background-color:  #7fdbed55;
+  border-radius: 10px;
+  color: #ffffff;
+  h3{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    background-color:  #366d78;
+    border-radius: 10px 10px 0 0;
+  }
+  .description{
+    padding: 20px;
+    p{
+      background-color: #70c2d2;
+      border-radius: 10px;
+    }
+    span{
+      display: inline-block;
+      width: 120px;
+      padding-left: 10px;
+      border-radius: 10px 0 0 10px;
+      background-color: #d69294;  
+    }
+  }
+}

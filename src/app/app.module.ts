@@ -12,6 +12,9 @@ import { Error404Component } from './pages/error404/error404.component';
 import { DirectiveLinkDirective } from './directives/directive-link.directive';
 import { DirectiveInputDirective } from './directives/directive-input.directive';
 import { FormsModule } from '@angular/forms';
+import { CharacterListComponent } from './pages/character-list/character-list.component';
+import { CardComponent } from './pages/card/card.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,11 +27,14 @@ import { FormsModule } from '@angular/forms';
     Error404Component,
     DirectiveLinkDirective,
     DirectiveInputDirective,
+    CharacterListComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
